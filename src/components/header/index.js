@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import OrderElem from '../orderElem';
 import {Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-
+ 
 const Header = ({ orders, favs}) => {
   const [cartOpen, setCartOpen] = useState(false);
   const [favOpen, setFavOpen] = useState(false);
